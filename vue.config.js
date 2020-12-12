@@ -1,5 +1,7 @@
 module.exports = {
   configureWebpack: {
-    assetsPublicPath: "./gradient-online",
+    bulid: {
+      assetsPublicPath: "./gradient-online",
+    },
   },
 };
