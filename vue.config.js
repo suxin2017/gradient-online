@@ -1,7 +1,3 @@
 module.exports = {
-  configureWebpack: {
-    bulid: {
-      assetsPublicPath: "./gradient-online",
-    },
-  },
+  publicPath: process.env.NODE_ENV === "production" ? "/gradient-online/" : "/",
 };
