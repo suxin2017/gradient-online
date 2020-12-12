@@ -5,12 +5,10 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-  watch:
-    types: started
+ 
 
 jobs:
   build:
-    if: github.event.repository.owner.id == github.event.sender.id
     runs-on: ubuntu-latest
 
     strategy:
