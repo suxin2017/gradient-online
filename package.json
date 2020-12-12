@@ -1,6 +1,7 @@
 {
   "name": "gradient-online",
   "version": "0.1.0",
+  "homepage": "https://suxin2017.github.io/markdown-website",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
